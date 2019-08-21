@@ -21,4 +21,5 @@ Y-m-d H:i
 by default the trait convert the unix time to MySQL DATETIME format (2014-08-12 11:14:54)
 also you can change the time formate to any format the class deffined by default the time as MySQL DATETIME format
 
+#use any format
 return gmdate("YOUR FORMATE HERE", $this->created_at);
