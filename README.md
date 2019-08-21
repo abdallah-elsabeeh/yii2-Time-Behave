@@ -18,6 +18,7 @@ you can get more time formated from http://php.net/manual/en/function.date.php
 this trait to convert created_at and updated_at in formatted time
 Y-m-d H:i
 
+#use any time format
 by default the trait convert the unix time to MySQL DATETIME format (2014-08-12 11:14:54)
 also you can change the time formate to any format the class deffined by default the time as MySQL DATETIME format
 
